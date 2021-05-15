@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<properties>
+		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+		<property name="url" value="jdbc:mysql://172.16.15.206:3306/cywsystem?useUnicode=true&amp;characterEncoding=utf-8"/>
+		<property name="username" value="root"/>
+		<property name="password" value="1234"/>
+		<property name="poolMaximumActiveConnections" value="200"/>
+		<property name="poolMaximumIdleConnections" value="20"/>
+	</properties>
+	
+  <!-- <settings>
+    <setting name="useGeneratedKeys" value="false"/>
+    <setting name="useColumnLabel" value="true"/>
+  </settings> -->
+  <typeAliases>
+   		<typeAlias alias="Account" type="com.ityunhe.bean.Account"/>
+   		<typeAlias alias="Admin" type="com.ityunhe.bean.Admin"/>
+   		<typeAlias alias="Car" type="com.ityunhe.bean.Car"/>
+   		<typeAlias alias="Collectgard" type="com.ityunhe.bean.Collectgard"/>
+   		<typeAlias alias="Collectgoods" type="com.ityunhe.bean.Collectgoods"/>
+   		<typeAlias alias="Comment" type="com.ityunhe.bean.Comment"/>
+   		<typeAlias alias="Complain" type="com.ityunhe.bean.Complain"/>
+   		<typeAlias alias="Gard" type="com.ityunhe.bean.Gard"/>
+   		<typeAlias alias="Goods" type="com.ityunhe.bean.Goods"/>
+   		<typeAlias alias="Goodsclasses" type="com.ityunhe.bean.Goodsclasses"/>
+   		<typeAlias alias="Order" type="com.ityunhe.bean.Order"/>
+  </typeAliases>
+  <environments default="development">
+    <environment id="development">
+      <transactionManager type="JDBC"></transactionManager>
+      <dataSource type="POOLED">
+        <property name="url" value="${url}"/>
+        <property name="username" value="${username}"/>
+        <property name="password" value="${password}"/>
+        <property name="driver" value="${driverClassName}"/>
+        <property name="poolMaximumActiveConnections" value="${poolMaximumActiveConnections}"/>
+        <property name="poolMaximumIdleConnections" value="${poolMaximumIdleConnections}"/>
+      </dataSource>
+    </environment>
+  </environments>
+ <mappers>
+   	<mapper resource="com/ityunhe/conf/map/CarDaoMap.xml"/>
+   	<mapper resource="com/ityunhe/conf/map/CollectManageDaoMap.xml"/>
+   	<mapper resource="com/ityunhe/conf/map/CommentDaoMap.xml"/>
+   	<mapper resource="com/ityunhe/conf/map/ComplaintDaoMap.xml"/>
+   	<mapper resource="com/ityunhe/conf/map/GardenAccountDaoMap.xml"/>
+   	<mapper resource="com/ityunhe/conf/map/GardenPageManageDaoMap.xml"/>
+   	<mapper resource="com/ityunhe/conf/map/GoodsManageDaoMap.xml"/>
+   	<mapper resource="com/ityunhe/conf/map/GoodsShowDaoMap.xml"/>
+   	<mapper resource="com/ityunhe/conf/map/OrderDaoMap.xml"/>
+   	<mapper resource="com/ityunhe/conf/map/UserAccountDaoMap.xml"/>
+  </mappers>
+
+</configuration>
