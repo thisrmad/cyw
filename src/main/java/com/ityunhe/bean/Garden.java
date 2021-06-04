@@ -1,6 +1,6 @@
 package com.ityunhe.bean;
 
-public class Gard implements java.io.Serializable {
+public class Garden implements java.io.Serializable {
 
 	private Integer gaid;
 	private String gradname;
@@ -12,10 +12,10 @@ public class Gard implements java.io.Serializable {
 	private String gradmobile;
 	private String gradimages;
 
-	public Gard() {
+	public Garden() {
 	}
 
-	public Gard(String gradname, String gradpassword, String nickname,
+	public Garden(String gradname, String gradpassword, String nickname,
 			String gardaddress, String gardinfo) {
 		this.gradname = gradname;
 		this.gradpassword = gradpassword;
@@ -24,7 +24,7 @@ public class Gard implements java.io.Serializable {
 		this.gardinfo = gardinfo;
 	}
 
-	public Gard(String gradname, String gradpassword, String nickname,
+	public Garden(String gradname, String gradpassword, String nickname,
 			String gardaddress, String gradslogan, String gardinfo,
 			String gradmobile, String gradimages) {
 		this.gradname = gradname;
@@ -42,7 +42,10 @@ public class Gard implements java.io.Serializable {
 	public Integer getGaid() {
 		return this.gaid;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setGaid(Integer gaid) {
 		this.gaid = gaid;
 	}
@@ -50,7 +53,10 @@ public class Gard implements java.io.Serializable {
 	public String getGradname() {
 		return this.gradname;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setGradname(String gradname) {
 		this.gradname = gradname;
 	}
@@ -58,7 +64,10 @@ public class Gard implements java.io.Serializable {
 	public String getGradpassword() {
 		return this.gradpassword;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setGradpassword(String gradpassword) {
 		this.gradpassword = gradpassword;
 	}
@@ -66,7 +75,10 @@ public class Gard implements java.io.Serializable {
 	public String getNickname() {
 		return this.nickname;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setNickname(String nickname) {
 		this.nickname = nickname;
 	}
@@ -74,7 +86,10 @@ public class Gard implements java.io.Serializable {
 	public String getGardaddress() {
 		return this.gardaddress;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setGardaddress(String gardaddress) {
 		this.gardaddress = gardaddress;
 	}
@@ -82,7 +97,10 @@ public class Gard implements java.io.Serializable {
 	public String getGradslogan() {
 		return this.gradslogan;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setGradslogan(String gradslogan) {
 		this.gradslogan = gradslogan;
 	}
@@ -90,7 +108,10 @@ public class Gard implements java.io.Serializable {
 	public String getGardinfo() {
 		return this.gardinfo;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setGardinfo(String gardinfo) {
 		this.gardinfo = gardinfo;
 	}
@@ -98,7 +119,10 @@ public class Gard implements java.io.Serializable {
 	public String getGradmobile() {
 		return this.gradmobile;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setGradmobile(String gradmobile) {
 		this.gradmobile = gradmobile;
 	}
@@ -106,7 +130,10 @@ public class Gard implements java.io.Serializable {
 	public String getGradimages() {
 		return this.gradimages;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setGradimages(String gradimages) {
 		this.gradimages = gradimages;
 	}

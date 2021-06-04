@@ -14,21 +14,37 @@ public class Car implements java.io.Serializable {
 		this.goid = goid;
 		this.number = number;
 	}
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public Integer getUid() {
 		return uid;
-	}
+	}	
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setUid(Integer uid) {
 		this.uid = uid;
 	}
 	public String getGoid() {
 		return goid;
 	}
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setGoid(String goid) {
 		this.goid = goid;
 	}
 	public Integer getNumber() {
 		return number;
 	}
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setNumber(Integer number) {
 		this.number = number;
 	}

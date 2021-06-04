@@ -15,12 +15,20 @@ public class Collectgard implements java.io.Serializable {
 	public Integer getUid() {
 		return uid;
 	}
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setUid(Integer uid) {
 		this.uid = uid;
 	}
 	public String getGaid() {
 		return gaid;
 	}
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setGaid(String gaid) {
 		this.gaid = gaid;
 	}

@@ -24,7 +24,10 @@ public class Goodsclasses implements java.io.Serializable {
 	public Integer getGsid() {
 		return this.gsid;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setGsid(Integer gsid) {
 		this.gsid = gsid;
 	}
@@ -32,7 +35,10 @@ public class Goodsclasses implements java.io.Serializable {
 	public String getClassesname() {
 		return this.classesname;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setClassesname(String classesname) {
 		this.classesname = classesname;
 	}
@@ -40,7 +46,10 @@ public class Goodsclasses implements java.io.Serializable {
 	public Integer getParentid() {
 		return this.parentid;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setParentid(Integer parentid) {
 		this.parentid = parentid;
 	}
@@ -48,7 +57,10 @@ public class Goodsclasses implements java.io.Serializable {
 	public String getParentidList() {
 		return this.parentidList;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setParentidList(String parentidList) {
 		this.parentidList = parentidList;
 	}
@@ -56,11 +68,14 @@ public class Goodsclasses implements java.io.Serializable {
 	public Integer getDepth() {
 		return this.depth;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setDepth(Integer depth) {
 		this.depth = depth;
 	}
-
+	
 	@Override
 	public String toString() {
 		return "Goodsclasses [gsid=" + gsid + ", classesname=" + classesname + ", parentid=" + parentid

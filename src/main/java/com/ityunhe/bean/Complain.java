@@ -25,7 +25,10 @@ public class Complain implements java.io.Serializable {
 	public Integer getCid() {
 		return this.cid;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setCid(Integer cid) {
 		this.cid = cid;
 	}
@@ -33,7 +36,10 @@ public class Complain implements java.io.Serializable {
 	public String getGaid() {
 		return this.gaid;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setGaid(String gaid) {
 		this.gaid = gaid;
 	}
@@ -41,7 +47,10 @@ public class Complain implements java.io.Serializable {
 	public String getUid() {
 		return this.uid;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setUid(String uid) {
 		this.uid = uid;
 	}
@@ -49,7 +58,10 @@ public class Complain implements java.io.Serializable {
 	public String getContent() {
 		return this.content;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setContent(String content) {
 		this.content = content;
 	}

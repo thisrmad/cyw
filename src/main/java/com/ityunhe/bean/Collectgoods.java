@@ -15,12 +15,20 @@ public class Collectgoods implements java.io.Serializable {
 	public Integer getUid() {
 		return uid;
 	}
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setUid(Integer uid) {
 		this.uid = uid;
 	}
 	public String getGoid() {
 		return goid;
 	}
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setGoid(String goid) {
 		this.goid = goid;
 	}

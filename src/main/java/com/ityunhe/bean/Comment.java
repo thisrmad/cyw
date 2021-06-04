@@ -45,7 +45,10 @@ public class Comment implements java.io.Serializable {
 	public Integer getCid() {
 		return this.cid;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setCid(Integer cid) {
 		this.cid = cid;
 	}
@@ -53,7 +56,10 @@ public class Comment implements java.io.Serializable {
 	public String getGoid() {
 		return this.goid;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setGoid(String goid) {
 		this.goid = goid;
 	}
@@ -61,7 +67,10 @@ public class Comment implements java.io.Serializable {
 	public String getNickname() {
 		return this.nickname;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setNickname(String nickname) {
 		this.nickname = nickname;
 	}
@@ -69,7 +78,10 @@ public class Comment implements java.io.Serializable {
 	public String getContent() {
 		return this.content;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setContent(String content) {
 		this.content = content;
 	}
@@ -77,7 +89,10 @@ public class Comment implements java.io.Serializable {
 	public Timestamp getAddtime() {
 		return this.addtime;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setAddtime(Timestamp addtime) {
 		this.addtime = addtime;
 	}
@@ -85,7 +100,10 @@ public class Comment implements java.io.Serializable {
 	public Integer getTruth() {
 		return this.truth;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setTruth(Integer truth) {
 		this.truth = truth;
 	}
@@ -93,7 +111,10 @@ public class Comment implements java.io.Serializable {
 	public Integer getService() {
 		return this.service;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setService(Integer service) {
 		this.service = service;
 	}
@@ -101,7 +122,10 @@ public class Comment implements java.io.Serializable {
 	public Integer getSpeed() {
 		return this.speed;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setSpeed(Integer speed) {
 		this.speed = speed;
 	}
@@ -109,7 +133,10 @@ public class Comment implements java.io.Serializable {
 	public Integer getFresh() {
 		return this.fresh;
 	}
-
+	/**
+	 * 设置
+	 * @param 
+	 */
 	public void setFresh(Integer fresh) {
 		this.fresh = fresh;
 	}
