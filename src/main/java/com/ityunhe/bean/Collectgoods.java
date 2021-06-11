@@ -12,6 +12,10 @@ public class Collectgoods implements java.io.Serializable {
 		this.uid = uid;
 		this.goid = goid;
 	}
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public Integer getUid() {
 		return uid;
 	}
@@ -22,6 +26,10 @@ public class Collectgoods implements java.io.Serializable {
 	public void setUid(Integer uid) {
 		this.uid = uid;
 	}
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public String getGoid() {
 		return goid;
 	}

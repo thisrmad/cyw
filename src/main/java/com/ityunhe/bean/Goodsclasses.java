@@ -20,7 +20,10 @@ public class Goodsclasses implements java.io.Serializable {
 		this.depth = depth;
 	}
 
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public Integer getGsid() {
 		return this.gsid;
 	}
@@ -31,7 +34,10 @@ public class Goodsclasses implements java.io.Serializable {
 	public void setGsid(Integer gsid) {
 		this.gsid = gsid;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public String getClassesname() {
 		return this.classesname;
 	}
@@ -42,7 +48,10 @@ public class Goodsclasses implements java.io.Serializable {
 	public void setClassesname(String classesname) {
 		this.classesname = classesname;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public Integer getParentid() {
 		return this.parentid;
 	}

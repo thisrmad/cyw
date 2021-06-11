@@ -28,6 +28,10 @@ public class Car implements java.io.Serializable {
 	public void setUid(Integer uid) {
 		this.uid = uid;
 	}
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public String getGoid() {
 		return goid;
 	}
@@ -38,6 +42,10 @@ public class Car implements java.io.Serializable {
 	public void setGoid(String goid) {
 		this.goid = goid;
 	}
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public Integer getNumber() {
 		return number;
 	}

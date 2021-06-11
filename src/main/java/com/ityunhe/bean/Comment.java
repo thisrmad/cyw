@@ -41,7 +41,10 @@ public class Comment implements java.io.Serializable {
 		this.fresh = fresh;
 	}
 
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public Integer getCid() {
 		return this.cid;
 	}
@@ -52,7 +55,10 @@ public class Comment implements java.io.Serializable {
 	public void setCid(Integer cid) {
 		this.cid = cid;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public String getGoid() {
 		return this.goid;
 	}
@@ -63,7 +69,10 @@ public class Comment implements java.io.Serializable {
 	public void setGoid(String goid) {
 		this.goid = goid;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public String getNickname() {
 		return this.nickname;
 	}
@@ -74,7 +83,10 @@ public class Comment implements java.io.Serializable {
 	public void setNickname(String nickname) {
 		this.nickname = nickname;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public String getContent() {
 		return this.content;
 	}
@@ -85,7 +97,10 @@ public class Comment implements java.io.Serializable {
 	public void setContent(String content) {
 		this.content = content;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public Timestamp getAddtime() {
 		return this.addtime;
 	}
@@ -96,7 +111,10 @@ public class Comment implements java.io.Serializable {
 	public void setAddtime(Timestamp addtime) {
 		this.addtime = addtime;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public Integer getTruth() {
 		return this.truth;
 	}
@@ -107,7 +125,10 @@ public class Comment implements java.io.Serializable {
 	public void setTruth(Integer truth) {
 		this.truth = truth;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public Integer getService() {
 		return this.service;
 	}
@@ -118,7 +139,10 @@ public class Comment implements java.io.Serializable {
 	public void setService(Integer service) {
 		this.service = service;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public Integer getSpeed() {
 		return this.speed;
 	}
@@ -129,7 +153,10 @@ public class Comment implements java.io.Serializable {
 	public void setSpeed(Integer speed) {
 		this.speed = speed;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public Integer getFresh() {
 		return this.fresh;
 	}

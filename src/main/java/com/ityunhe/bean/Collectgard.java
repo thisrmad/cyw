@@ -12,6 +12,10 @@ public class Collectgard implements java.io.Serializable {
 		this.uid = uid;
 		this.gaid = gaid;
 	}
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public Integer getUid() {
 		return uid;
 	}
@@ -22,6 +26,10 @@ public class Collectgard implements java.io.Serializable {
 	public void setUid(Integer uid) {
 		this.uid = uid;
 	}
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public String getGaid() {
 		return gaid;
 	}

@@ -42,7 +42,10 @@ public class Goods implements java.io.Serializable {
 		this.scope = scope;
 	}
 
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public Integer getGoid() {
 		return this.goid;
 	}
@@ -53,7 +56,10 @@ public class Goods implements java.io.Serializable {
 	public void setGoid(Integer goid) {
 		this.goid = goid;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public Integer getGsid() {
 		return this.gsid;
 	}
@@ -64,7 +70,10 @@ public class Goods implements java.io.Serializable {
 	public void setGsid(Integer gsid) {
 		this.gsid = gsid;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public String getGaid() {
 		return this.gaid;
 	}
@@ -75,7 +84,10 @@ public class Goods implements java.io.Serializable {
 	public void setGaid(String gaid) {
 		this.gaid = gaid;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public String getGoodsname() {
 		return this.goodsname;
 	}
@@ -86,7 +98,10 @@ public class Goods implements java.io.Serializable {
 	public void setGoodsname(String goodsname) {
 		this.goodsname = goodsname;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public Double getPrice() {
 		return this.price;
 	}
@@ -97,7 +112,10 @@ public class Goods implements java.io.Serializable {
 	public void setPrice(Double price) {
 		this.price = price;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public Integer getNumber() {
 		return this.number;
 	}
@@ -108,7 +126,10 @@ public class Goods implements java.io.Serializable {
 	public void setNumber(Integer number) {
 		this.number = number;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public String getGoodsimages() {
 		return this.goodsimages;
 	}
@@ -119,7 +140,10 @@ public class Goods implements java.io.Serializable {
 	public void setGoodsimages(String goodsimages) {
 		this.goodsimages = goodsimages;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public String getNutrition() {
 		return this.nutrition;
 	}
@@ -130,7 +154,10 @@ public class Goods implements java.io.Serializable {
 	public void setNutrition(String nutrition) {
 		this.nutrition = nutrition;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public Integer getSales() {
 		return this.sales;
 	}
@@ -141,7 +168,10 @@ public class Goods implements java.io.Serializable {
 	public void setSales(Integer sales) {
 		this.sales = sales;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public String getScope() {
 		return this.scope;
 	}

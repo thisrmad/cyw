@@ -38,7 +38,10 @@ public class Garden implements java.io.Serializable {
 	}
 
 	// Property accessors
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public Integer getGaid() {
 		return this.gaid;
 	}
@@ -49,7 +52,10 @@ public class Garden implements java.io.Serializable {
 	public void setGaid(Integer gaid) {
 		this.gaid = gaid;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public String getGradname() {
 		return this.gradname;
 	}
@@ -60,7 +66,10 @@ public class Garden implements java.io.Serializable {
 	public void setGradname(String gradname) {
 		this.gradname = gradname;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public String getGradpassword() {
 		return this.gradpassword;
 	}
@@ -71,7 +80,10 @@ public class Garden implements java.io.Serializable {
 	public void setGradpassword(String gradpassword) {
 		this.gradpassword = gradpassword;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public String getNickname() {
 		return this.nickname;
 	}
@@ -82,7 +94,10 @@ public class Garden implements java.io.Serializable {
 	public void setNickname(String nickname) {
 		this.nickname = nickname;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public String getGardaddress() {
 		return this.gardaddress;
 	}
@@ -93,7 +108,10 @@ public class Garden implements java.io.Serializable {
 	public void setGardaddress(String gardaddress) {
 		this.gardaddress = gardaddress;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public String getGradslogan() {
 		return this.gradslogan;
 	}
@@ -104,7 +122,10 @@ public class Garden implements java.io.Serializable {
 	public void setGradslogan(String gradslogan) {
 		this.gradslogan = gradslogan;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public String getGardinfo() {
 		return this.gardinfo;
 	}
@@ -115,7 +136,10 @@ public class Garden implements java.io.Serializable {
 	public void setGardinfo(String gardinfo) {
 		this.gardinfo = gardinfo;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public String getGradmobile() {
 		return this.gradmobile;
 	}
@@ -126,7 +150,10 @@ public class Garden implements java.io.Serializable {
 	public void setGradmobile(String gradmobile) {
 		this.gradmobile = gradmobile;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public String getGradimages() {
 		return this.gradimages;
 	}
