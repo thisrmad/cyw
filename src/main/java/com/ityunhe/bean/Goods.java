@@ -4,7 +4,7 @@ public class Goods implements java.io.Serializable {
 
 	private Integer goid;
 	private Integer gsid;
-	private String gaid;
+	private Integer gaid;
 	private String goodsname;
 	private Double price;
 	private Integer number;
@@ -16,7 +16,7 @@ public class Goods implements java.io.Serializable {
 	public Goods() {
 	}
 
-	public Goods(Integer gsid, String gaid, String goodsname, Double price,
+	public Goods(Integer gsid, Integer gaid, String goodsname, Double price,
 			Integer number, String goodsimages, Integer sales, String scope) {
 		this.gsid = gsid;
 		this.gaid = gaid;
@@ -28,7 +28,7 @@ public class Goods implements java.io.Serializable {
 		this.scope = scope;
 	}
 
-	public Goods(Integer gsid, String gaid, String goodsname, Double price,
+	public Goods(Integer gsid, Integer gaid, String goodsname, Double price,
 			Integer number, String goodsimages, String nutrition,
 			Integer sales, String scope) {
 		this.gsid = gsid;
@@ -74,14 +74,14 @@ public class Goods implements java.io.Serializable {
 	 * 获取
 	 * @param 
 	 */
-	public String getGaid() {
+	public Integer getGaid() {
 		return this.gaid;
 	}
 	/**
 	 * 设置
 	 * @param 
 	 */
-	public void setGaid(String gaid) {
+	public void setGaid(Integer gaid) {
 		this.gaid = gaid;
 	}
 	/**

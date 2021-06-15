@@ -62,7 +62,10 @@ public class Goodsclasses implements java.io.Serializable {
 	public void setParentid(Integer parentid) {
 		this.parentid = parentid;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public String getParentidList() {
 		return this.parentidList;
 	}
@@ -73,7 +76,10 @@ public class Goodsclasses implements java.io.Serializable {
 	public void setParentidList(String parentidList) {
 		this.parentidList = parentidList;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public Integer getDepth() {
 		return this.depth;
 	}

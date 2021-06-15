@@ -2,7 +2,7 @@ package com.ityunhe.bean;
 
 import java.sql.Timestamp;
 /**
- * 用户账号实体类
+ * 普通用户实体类
  * @author Administrator
  */
 public class Account implements java.io.Serializable {
@@ -42,139 +42,143 @@ public class Account implements java.io.Serializable {
 		this.address = address;
 	}
 
-
+	/**
+	 * 获取普通用户编号uid 自增 
+	 * @param 
+	 */
 	public Integer getUid() {
 		return this.uid;
 	}
 	/**
-	 * 设置用户账号uid 自增
+	 * 设置普通用户编号uid 自增 Integer
 	 * @param uid
 	 */
+	
 	public void setUid(Integer uid) {
 		this.uid = uid;
 	}
 	/**
-	 * 获取
+	 * 获取普通用户名username 唯一
 	 * @param 
 	 */
 	public String getUsername() {
 		return this.username;
 	}
 	/**
-	 * 设置用户名username 唯一
+	 * 设置普通用户名username 唯一 String
 	 * @param username
 	 */
 	public void setUsername(String username) {
 		this.username = username;
 	}
 	/**
-	 * 获取
+	 * 获取普通用户密码userpassword
 	 * @param 
 	 */
 	public String getUserpassword() {
 		return this.userpassword;
 	}
 	/**
-	 * 设置
-	 * @param 
+	 * 设置普通用户密码userpassword String
+	 * @param userpassword
 	 */
 	public void setUserpassword(String userpassword) {
 		this.userpassword = userpassword;
 	}
 	/**
-	 * 获取
+	 * 获取普通用户昵称nickname
 	 * @param 
 	 */
 	public String getNickname() {
 		return this.nickname;
 	}
 	/**
-	 * 设置
-	 * @param 
+	 * 设置普通用户昵称nickname String
+	 * @param nickname
 	 */
 	public void setNickname(String nickname) {
 		this.nickname = nickname;
 	}
 	/**
-	 * 获取
+	 * 获取普通用户性别sex
 	 * @param 
 	 */
 	public Integer getSex() {
 		return this.sex;
 	}
 	/**
-	 * 设置
+	 * 设置普通用户性别sex Integer
 	 * @param 
 	 */
 	public void setSex(Integer sex) {
 		this.sex = sex;
 	}
 	/**
-	 * 获取
+	 * 获取普通用户手机号mobile
 	 * @param 
 	 */
 	public String getMobile() {
 		return this.mobile;
 	}
 	/**
-	 * 设置
-	 * @param 
+	 * 设置普通用户手机号mobile String
+	 * @param mobile
 	 */
 	public void setMobile(String mobile) {
 		this.mobile = mobile;
 	}
 	/**
-	 * 获取
+	 * 获取普通用户邮箱email
 	 * @param 
 	 */
 	public String getEmail() {
 		return this.email;
 	}
 	/**
-	 * 设置
-	 * @param 
+	 * 设置普通用户邮箱email String
+	 * @param email
 	 */
 	public void setEmail(String email) {
 		this.email = email;
 	}
 	/**
-	 * 获取
+	 * 获取普通用户注册时间addtime
 	 * @param 
 	 */
 	public Timestamp getAddtime() {
 		return this.addtime;
 	}
 	/**
-	 * 设置
-	 * @param 
+	 * 设置普通用户注册时间addtime Timestamp
+	 * @param addtime
 	 */
 	public void setAddtime(Timestamp addtime) {
 		this.addtime = addtime;
 	}
 	/**
-	 * 获取
+	 * 获取普通用户头像headimage
 	 * @param 
 	 */
 	public String getHeadimage() {
 		return this.headimage;
 	}
 	/**
-	 * 设置
-	 * @param 
+	 * 设置普通用户头像headimage String
+	 * @param headimage
 	 */
 	public void setHeadimage(String headimage) {
 		this.headimage = headimage;
 	}
 	/**
-	 * 获取
+	 * 获取普通用户收获地址address
 	 * @param 
 	 */
 	public String getAddress() {
 		return this.address;
 	}
 	/**
-	 * 设置
-	 * @param 
+	 * 设置普通用户收获地址address String
+	 * @param address
 	 */
 	public void setAddress(String address) {
 		this.address = address;

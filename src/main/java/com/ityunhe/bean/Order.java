@@ -20,7 +20,10 @@ public class Order implements java.io.Serializable {
 		this.address = address;
 		this.orderstatus = orderstatus;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public Integer getOid() {
 		return this.oid;
 	}
@@ -31,7 +34,10 @@ public class Order implements java.io.Serializable {
 	public void setOid(Integer oid) {
 		this.oid = oid;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public Integer getUid() {
 		return this.uid;
 	}
@@ -42,7 +48,10 @@ public class Order implements java.io.Serializable {
 	public void setUid(Integer uid) {
 		this.uid = uid;
 	}
-	
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public String getGoid() {
 		return this.goid;
 	}
@@ -53,7 +62,10 @@ public class Order implements java.io.Serializable {
 	public void setGoid(String goid) {
 		this.goid = goid;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public Integer getNumber() {
 		return this.number;
 	}
@@ -64,7 +76,10 @@ public class Order implements java.io.Serializable {
 	public void setNumber(Integer number) {
 		this.number = number;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public String getAddress() {
 		return this.address;
 	}
@@ -75,7 +90,10 @@ public class Order implements java.io.Serializable {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-
+	/**
+	 * 获取
+	 * @param 
+	 */
 	public Integer getOrderstatus() {
 		return this.orderstatus;
 	}
